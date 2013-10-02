@@ -962,7 +962,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container {
-    max-width: 970px;
+    max-width: 800px;
   }
   .col-md-1,
   .col-md-2,
@@ -1124,7 +1124,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 800px;
   }
   .col-lg-1,
   .col-lg-2,
@@ -5920,6 +5920,7 @@ body {
 }
 #main-nav.navbar {
   margin-bottom: 0;
+  background-color: #FFF;
 }
 #main-content #content {
   margin-left: -15px;
@@ -5958,34 +5959,34 @@ body {
 @media (min-width: 1200px) {
   #main-content #content #primary {
     float: left;
-    width: 66.66666666666666%;
+    width: 75%;
   }
 }
 @media (min-width: 992px) {
   #main-content #content #primary {
     float: left;
-    width: 66.66666666666666%;
+    width: 75%;
   }
 }
 @media (min-width: 768px) {
   #main-content #content #primary {
     float: left;
-    width: 66.66666666666666%;
+    width: 75%;
   }
 }
 @media (min-width: 1200px) {
   #main-content #content #primary {
-    left: 33.33333333333333%;
+    left: 25%;
   }
 }
 @media (min-width: 992px) {
   #main-content #content #primary {
-    left: 33.33333333333333%;
+    left: 25%;
   }
 }
 @media (min-width: 768px) {
   #main-content #content #primary {
-    left: 33.33333333333333%;
+    left: 25%;
   }
 }
 #main-content #content #sidebar {
@@ -5999,33 +6000,33 @@ body {
 @media (min-width: 1200px) {
   #main-content #content #sidebar {
     float: left;
-    width: 33.33333333333333%;
+    width: 25%;
   }
 }
 @media (min-width: 992px) {
   #main-content #content #sidebar {
     float: left;
-    width: 33.33333333333333%;
+    width: 25%;
   }
 }
 @media (min-width: 768px) {
   #main-content #content #sidebar {
     float: left;
-    width: 33.33333333333333%;
+    width: 25%;
   }
 }
 @media (min-width: 1200px) {
   #main-content #content #sidebar {
-    right: 66.66666666666666%;
+    right: 75%;
   }
 }
 @media (min-width: 992px) {
   #main-content #content #sidebar {
-    right: 66.66666666666666%;
+    right: 75%;
   }
 }
 @media (min-width: 768px) {
   #main-content #content #sidebar {
-    right: 66.66666666666666%;
+    right: 75%;
   }
 }
