@@ -1,0 +1,101 @@
+/*
+Theme Name: EYD Magazine
+Theme URI: http://www.eydmagazine.com
+Author: Yoga Hanggara
+Author URI: http://yohang.net
+Description: Template for EYD Magazine
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: simple
+Text Domain: eyd-magazine
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "bootstrap/variables.less";
+@import "variables-custom.less";
+@import "bootstrap/mixins.less";
+
+@import "bootstrap/normalize.less";
+@import "bootstrap/print.less";
+
+@import "bootstrap/scaffolding.less";
+@import "bootstrap/type.less";
+@import "bootstrap/code.less";
+@import "bootstrap/grid.less";
+@import "bootstrap/tables.less";
+@import "bootstrap/forms.less";
+@import "bootstrap/buttons.less";
+
+@import "bootstrap/component-animations.less";
+@import "bootstrap/glyphicons.less";
+@import "bootstrap/dropdowns.less";
+@import "bootstrap/button-groups.less";
+@import "bootstrap/input-groups.less";
+@import "bootstrap/navs.less";
+@import "bootstrap/navbar.less";
+@import "bootstrap/breadcrumbs.less";
+@import "bootstrap/pagination.less";
+@import "bootstrap/pager.less";
+@import "bootstrap/labels.less";
+@import "bootstrap/badges.less";
+@import "bootstrap/jumbotron.less";
+@import "bootstrap/thumbnails.less";
+@import "bootstrap/alerts.less";
+@import "bootstrap/progress-bars.less";
+@import "bootstrap/media.less";
+@import "bootstrap/list-group.less";
+@import "bootstrap/panels.less";
+@import "bootstrap/wells.less";
+@import "bootstrap/close.less";
+
+@import "bootstrap/modals.less";
+@import "bootstrap/tooltip.less";
+@import "bootstrap/popovers.less";
+@import "bootstrap/carousel.less";
+
+@import "bootstrap/utilities.less";
+@import "bootstrap/responsive-utilities.less";
+
+body {
+	background-color: #DDD;	
+}
+
+#wrap {
+	background-color: #FFF;	
+}
+
+#main-nav {
+	&.navbar {
+		margin-bottom: 0;
+	}	
+}
+
+#main-content {
+	#content {
+		.make-row();
+
+		#primary {
+			.make-lg-column(8);
+			.make-md-column(8);
+			.make-sm-column(8);
+			.make-lg-column-push(4);
+			.make-md-column-push(4);
+			.make-sm-column-push(4);
+		}
+
+		#sidebar {
+			.make-lg-column(4);
+			.make-md-column(4);
+			.make-sm-column(4);
+			.make-lg-column-pull(8);
+			.make-md-column-pull(8);
+			.make-sm-column-pull(8);
+
+			background-color: #18ACFF;
+			min-height: 600px;
+		}
+	}
+}
