@@ -59,24 +59,37 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "bootstrap/utilities.less";
 @import "bootstrap/responsive-utilities.less";
 
+@font-face {
+	font-family: TisaPro;
+	src: url("fonts/tisa/TisaPro-Regular.otf") format("opentype");
+}
+
+
 body {
 	background-color: #666;
 }
 
 #wrap {
 	background-color: #FFF;
+
+	@media (min-width: @screen-sm) {
+		background-image:    url('img/paper.jpg');
+		background-position: cover;
+	}
 }
 
 #main-nav {
 	&.navbar {
-		margin-bottom: 0;
+		margin-bottom:    0;
 		background-color: #FFF;
+		box-shadow:       0px 0px 10px 0px #333
 	}
 }
 
 #main-content {
 	#content {
 		.make-row();
+		background-color: #18ACFF;
 
 		#primary {
 			.make-lg-column(9);
@@ -85,6 +98,21 @@ body {
 			.make-lg-column-push(3);
 			.make-md-column-push(3);
 			.make-sm-column-push(3);
+
+			padding-right: 0px;
+			padding-left:  0px;
+
+			#primary-content {
+				padding-left:     30px;
+				padding-right:    30px;
+				padding-bottom:   30px;
+				background-color: #FFF;
+				font-family:      'TisaPro', serif;
+				font-size:        10pt;
+				p {
+					line-height: 1.5em;
+				}
+			}
 		}
 
 		#sidebar {
@@ -95,8 +123,28 @@ body {
 			.make-md-column-pull(9);
 			.make-sm-column-pull(9);
 
-			background-color: #18ACFF;
-			min-height: 600px;
+			.block {
+				&.logo {
+					margin-top:    25px;
+					margin-bottom: 30px;
+				}
+
+				&.navigation {
+					margin-left:  -15px;
+					margin-right: -15px;
+					width:        95%;
+
+					.nav-pills > li > a {
+						border-radius: 0;
+						padding:       4px 15px;
+						border-bottom: 1px solid #6A90D6;
+					}
+
+					.nav-stacked > li + li {
+						margin-top:    0;
+					}
+				}
+			}
 		}
 	}
 }
