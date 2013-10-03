@@ -2,10 +2,10 @@
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">    
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -34,7 +34,7 @@
     <section id="main-content">
         <div class="container">
             <div id="content">
-                <div id="primary">
+                <div id="primary" class="column">
                     <h1>Primary</h1>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget purus id velit varius pellentesque in non dolor. Maecenas euismod pellentesque tellus nec ultricies. Donec mattis faucibus turpis in laoreet. Nullam nunc diam, luctus eget rhoncus vitae, accumsan et enim. Pellentesque congue iaculis ipsum, eu varius eros porttitor eu. Proin ut ipsum rutrum, varius risus vitae, tempor neque. Aliquam et dui odio. Duis id velit sit amet purus ornare rhoncus. Aenean pulvinar aliquet tincidunt. In euismod augue sed metus consequat, sed cursus tortor malesuada. Nullam luctus nec nunc egestas vestibulum. Ut quis urna sagittis, fringilla purus id, vulputate erat. Vestibulum blandit volutpat quam at pulvinar. Fusce nec nisi eget ante consectetur pulvinar. Integer lectus ipsum, faucibus eu iaculis nec, lacinia consequat felis. Donec lorem neque, molestie at nunc ac, pharetra lacinia sapien.
@@ -50,7 +50,7 @@
                     </p>
                     <p>
                     Aenean ullamcorper risus vel sem scelerisque, at pharetra enim elementum. Fusce a pellentesque eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris varius facilisis aliquam. Pellentesque a justo mauris. Donec sagittis, enim eget commodo cursus, enim mi eleifend nulla, vehicula consectetur est erat in lacus. Cras mattis sem non purus convallis cursus. Phasellus in nisi ultrices tortor porttitor varius sed id nisl. Nullam vehicula luctus lacus vel mattis. Praesent congue nibh justo, vitae fringilla leo aliquam ac. Vestibulum ullamcorper facilisis enim ultricies vestibulum. Cras et purus scelerisque, vestibulum nisl ut, posuere eros. Integer cursus dignissim nisi vitae suscipit. Donec pulvinar ligula et orci aliquet, vitae vestibulum ipsum condimentum. In bibendum, ipsum non viverra varius, lectus tellus elementum neque, sit amet iaculis nulla massa non nibh.
-                    </p>         
+                    </p>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget purus id velit varius pellentesque in non dolor. Maecenas euismod pellentesque tellus nec ultricies. Donec mattis faucibus turpis in laoreet. Nullam nunc diam, luctus eget rhoncus vitae, accumsan et enim. Pellentesque congue iaculis ipsum, eu varius eros porttitor eu. Proin ut ipsum rutrum, varius risus vitae, tempor neque. Aliquam et dui odio. Duis id velit sit amet purus ornare rhoncus. Aenean pulvinar aliquet tincidunt. In euismod augue sed metus consequat, sed cursus tortor malesuada. Nullam luctus nec nunc egestas vestibulum. Ut quis urna sagittis, fringilla purus id, vulputate erat. Vestibulum blandit volutpat quam at pulvinar. Fusce nec nisi eget ante consectetur pulvinar. Integer lectus ipsum, faucibus eu iaculis nec, lacinia consequat felis. Donec lorem neque, molestie at nunc ac, pharetra lacinia sapien.
                     </p>
@@ -65,7 +65,7 @@
                     </p>
                     <p>
                     Aenean ullamcorper risus vel sem scelerisque, at pharetra enim elementum. Fusce a pellentesque eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris varius facilisis aliquam. Pellentesque a justo mauris. Donec sagittis, enim eget commodo cursus, enim mi eleifend nulla, vehicula consectetur est erat in lacus. Cras mattis sem non purus convallis cursus. Phasellus in nisi ultrices tortor porttitor varius sed id nisl. Nullam vehicula luctus lacus vel mattis. Praesent congue nibh justo, vitae fringilla leo aliquam ac. Vestibulum ullamcorper facilisis enim ultricies vestibulum. Cras et purus scelerisque, vestibulum nisl ut, posuere eros. Integer cursus dignissim nisi vitae suscipit. Donec pulvinar ligula et orci aliquet, vitae vestibulum ipsum condimentum. In bibendum, ipsum non viverra varius, lectus tellus elementum neque, sit amet iaculis nulla massa non nibh.
-                    </p>     
+                    </p>
                     <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget purus id velit varius pellentesque in non dolor. Maecenas euismod pellentesque tellus nec ultricies. Donec mattis faucibus turpis in laoreet. Nullam nunc diam, luctus eget rhoncus vitae, accumsan et enim. Pellentesque congue iaculis ipsum, eu varius eros porttitor eu. Proin ut ipsum rutrum, varius risus vitae, tempor neque. Aliquam et dui odio. Duis id velit sit amet purus ornare rhoncus. Aenean pulvinar aliquet tincidunt. In euismod augue sed metus consequat, sed cursus tortor malesuada. Nullam luctus nec nunc egestas vestibulum. Ut quis urna sagittis, fringilla purus id, vulputate erat. Vestibulum blandit volutpat quam at pulvinar. Fusce nec nisi eget ante consectetur pulvinar. Integer lectus ipsum, faucibus eu iaculis nec, lacinia consequat felis. Donec lorem neque, molestie at nunc ac, pharetra lacinia sapien.
                     </p>
@@ -80,16 +80,20 @@
                     </p>
                     <p>
                     Aenean ullamcorper risus vel sem scelerisque, at pharetra enim elementum. Fusce a pellentesque eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris varius facilisis aliquam. Pellentesque a justo mauris. Donec sagittis, enim eget commodo cursus, enim mi eleifend nulla, vehicula consectetur est erat in lacus. Cras mattis sem non purus convallis cursus. Phasellus in nisi ultrices tortor porttitor varius sed id nisl. Nullam vehicula luctus lacus vel mattis. Praesent congue nibh justo, vitae fringilla leo aliquam ac. Vestibulum ullamcorper facilisis enim ultricies vestibulum. Cras et purus scelerisque, vestibulum nisl ut, posuere eros. Integer cursus dignissim nisi vitae suscipit. Donec pulvinar ligula et orci aliquet, vitae vestibulum ipsum condimentum. In bibendum, ipsum non viverra varius, lectus tellus elementum neque, sit amet iaculis nulla massa non nibh.
-                    </p>                                                        
+                    </p>
                 </div>
-                <div id="sidebar">
+                <div id="sidebar" class="column">
                     <h1>Sidebar</h1>
                 </div>
             </div>
         </div>
     </section>
-
 </div>
+<footer id="main-footer">
+    <div class="container">
+
+    </div>
+</footer>
 <?php wp_footer(); ?>
 </body>
 </html>

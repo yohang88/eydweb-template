@@ -5913,7 +5913,7 @@ td.visible-print {
   }
 }
 body {
-  background-color: #DDD;
+  background-color: #666;
 }
 #wrap {
   background-color: #FFF;
@@ -6029,4 +6029,7 @@ body {
   #main-content #content #sidebar {
     right: 75%;
   }
+}
+#main-footer {
+  height: 200px;
 }
