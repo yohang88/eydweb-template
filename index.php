@@ -36,33 +36,58 @@
             <div id="content">
                 <div id="primary" class="column">
                     <div id="primary-content">
-                        <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-3.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
-                        <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget purus id velit varius pellentesque in non dolor. Maecenas euismod pellentesque tellus nec ultricies. Donec mattis faucibus turpis in laoreet. Nullam nunc diam, luctus eget rhoncus vitae, accumsan et enim. Pellentesque congue iaculis ipsum, eu varius eros porttitor eu. Proin ut ipsum rutrum, varius risus vitae, tempor neque. Aliquam et dui odio. Duis id velit sit amet purus ornare rhoncus. Aenean pulvinar aliquet tincidunt. In euismod augue sed metus consequat, sed cursus tortor malesuada. Nullam luctus nec nunc egestas vestibulum. Ut quis urna sagittis, fringilla purus id, vulputate erat. Vestibulum blandit volutpat quam at pulvinar. Fusce nec nisi eget ante consectetur pulvinar. Integer lectus ipsum, faucibus eu iaculis nec, lacinia consequat felis. Donec lorem neque, molestie at nunc ac, pharetra lacinia sapien.
-                        </p>
-                        <p>
-                        Praesent hendrerit luctus aliquam. Pellentesque eu urna sit amet magna scelerisque sodales. Proin tincidunt euismod cursus. Pellentesque ligula lorem, fringilla a lacus eleifend, mattis bibendum arcu. Aliquam et ultrices lectus. Nam porta consectetur mauris. Praesent hendrerit euismod ante quis tincidunt. Proin ac nisl mauris. Aliquam interdum massa quis neque accumsan, nec interdum metus viverra. Nunc facilisis accumsan sapien, ut eleifend urna bibendum at. Vestibulum purus arcu, elementum vitae euismod at, lobortis nec tortor. Aliquam erat volutpat. Aenean at mi ultricies, laoreet eros vel, fermentum ante.
-                        </p>
-
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-4.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
-                                <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
-                            </div>
-                            <div class="col-sm-6">
-                                <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-5.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
-                                <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
-                            </div>
-                            <div class="col-sm-6">
-                                <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-9.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
-                                <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
-                            </div>
-                            <div class="col-sm-6">
-                                <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-7.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
-                                <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                        <div class="section">
+                            <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-3.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                            <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget purus id velit varius pellentesque in non dolor. Maecenas euismod pellentesque tellus nec ultricies. Donec mattis faucibus turpis in laoreet. Nullam nunc diam, luctus eget rhoncus vitae, accumsan et enim. Pellentesque congue iaculis ipsum, eu varius eros porttitor eu. Proin ut ipsum rutrum, varius risus vitae, tempor neque. Aliquam et dui odio. Duis id velit sit amet purus ornare rhoncus. Aenean pulvinar aliquet tincidunt. In euismod augue sed metus consequat, sed cursus tortor malesuada. Nullam luctus nec nunc egestas vestibulum. Ut quis urna sagittis, fringilla purus id, vulputate erat. Vestibulum blandit volutpat quam at pulvinar. Fusce nec nisi eget ante consectetur pulvinar. Integer lectus ipsum, faucibus eu iaculis nec, lacinia consequat felis. Donec lorem neque, molestie at nunc ac, pharetra lacinia sapien.
+                            </p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-4.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                                    <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-5.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                                    <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-9.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                                    <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-7.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                                    <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="section">
+                            <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-3.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                            <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget purus id velit varius pellentesque in non dolor. Maecenas euismod pellentesque tellus nec ultricies. Donec mattis faucibus turpis in laoreet. Nullam nunc diam, luctus eget rhoncus vitae, accumsan et enim. Pellentesque congue iaculis ipsum, eu varius eros porttitor eu. Proin ut ipsum rutrum, varius risus vitae, tempor neque. Aliquam et dui odio. Duis id velit sit amet purus ornare rhoncus. Aenean pulvinar aliquet tincidunt. In euismod augue sed metus consequat, sed cursus tortor malesuada. Nullam luctus nec nunc egestas vestibulum. Ut quis urna sagittis, fringilla purus id, vulputate erat. Vestibulum blandit volutpat quam at pulvinar. Fusce nec nisi eget ante consectetur pulvinar. Integer lectus ipsum, faucibus eu iaculis nec, lacinia consequat felis. Donec lorem neque, molestie at nunc ac, pharetra lacinia sapien.
+                            </p>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-4.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                                    <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-5.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                                    <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-9.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                                    <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                                </div>
+                                <div class="col-sm-6">
+                                    <img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-7.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" />
+                                    <h1>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit</h1>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div id="sidebar" class="column">
