@@ -92,11 +92,7 @@ body {
 		background-color: #18ACFF;
 
 		#primary {
-			.make-lg-column(9);
-			.make-md-column(9);
 			.make-sm-column(9);
-			.make-lg-column-push(3);
-			.make-md-column-push(3);
 			.make-sm-column-push(3);
 
 			padding-right: 0px;
@@ -106,9 +102,11 @@ body {
 				padding-left:     30px;
 				padding-right:    30px;
 				padding-bottom:   30px;
+				// padding-top:      50px;
 				background-color: #FFF;
 				font-family:      'TisaPro', serif;
 				font-size:        10pt;
+
 				p {
 					line-height: 1.5em;
 				}
@@ -116,11 +114,7 @@ body {
 		}
 
 		#sidebar {
-			.make-lg-column(3);
-			.make-md-column(3);
 			.make-sm-column(3);
-			.make-lg-column-pull(9);
-			.make-md-column-pull(9);
 			.make-sm-column-pull(9);
 
 			.block {
@@ -132,12 +126,16 @@ body {
 				&.navigation {
 					margin-left:  -15px;
 					margin-right: -15px;
-					width:        95%;
+
+					@media (min-width: @screen-sm) {
+						width: 95%;
+					}
 
 					.nav-pills > li > a {
 						border-radius: 0;
 						padding:       4px 15px;
 						border-bottom: 1px solid #6A90D6;
+						color:         #000;
 					}
 
 					.nav-stacked > li + li {
