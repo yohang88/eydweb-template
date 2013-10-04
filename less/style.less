@@ -81,6 +81,7 @@ body {
 
 #wrap {
 	background-color: #FFF;
+	// padding-bottom: 30px;
 
 	@media (min-width: @screen-sm) {
 		background-image:    url('img/paper.jpg');
@@ -120,10 +121,12 @@ body {
 			padding-left:  0px;
 
 			#primary-content {
+				height: 100%;
+
 				.section {
 					padding-bottom: 30px;
 					margin-bottom:  30px;
-					border-bottom:  1px solid #ccc;
+					// border-bottom:  1px solid #ccc;
 
 					.related {
 						margin-top: 30px;
@@ -150,12 +153,24 @@ body {
 					font-family:      'TisaPro', serif;
 					font-size:        10pt;
 
+					h1, h2, h3, h4, h5, h6 {
+						clear: both;
+					}
+
 					h1 {
 						font-size:   18pt;
 						font-family: 'TisaPro', serif;
 
 						a {
 							color: #900;
+						}
+
+						&.cat {
+							font-size: 14pt;
+							margin-top: 10px;
+							margin-bottom: 20px;
+							text-transform: uppercase;
+							color: #bbb;
 						}
 					}
 
@@ -166,6 +181,27 @@ body {
 							font-weight: bold;
 						}
 					}
+
+					figure {
+						margin: 20px 0;
+						figcaption.wp-caption-text {
+							font-size: 8pt;
+							line-height: 1.4em;
+							background-color: #000;
+							color: #bbb;
+							padding: 10px;
+						}
+
+						&.alignright {
+							float: right;
+							margin-left: 10px;
+						}
+
+						&.alignleft {
+							float: left;
+							margin-right: 10px;
+						}						
+					}					
 				}
 			}
 		}
@@ -215,5 +251,23 @@ body {
 }
 
 #main-footer {
-	height: 200px;
+	.spotlight {
+		.make-row();
+		padding: 30px;
+		color: #D8D8D8;
+
+		.block-one, .block-two, .block-three {
+			.make-sm-column(2);
+		}
+
+		.block-four, .block-four {
+			.make-sm-column(3);
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+		}		
+	}
+
 }

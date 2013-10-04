@@ -1,6 +1,5 @@
 ( function( $ ) {
     $(window).load(function() {
-        /*
         $('#content').each(function() {
 
             var highestBox = 0;
@@ -13,7 +12,7 @@
             $('.column',this).height(highestBox);
 
         });
-        */
+
     });
 
     $(window).resize(function() {
