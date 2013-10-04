@@ -26,7 +26,7 @@
                                <li>Aliquam tincidunt mauris eu risus.</li>                                                              
                             </ol>
 
-                            <figure id="" class="wp-caption aligncenter" style="width:540px"><a href="#"><img class="size-full img-responsive" alt="" src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-<?php echo rand(1,14) ?>.jpg&amp;w=540"></a><figcaption id="" class="wp-caption-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</figcaption></figure>
+                            <figure id="" class="wp-caption aligncenter"><a href="#"><img class="size-full img-responsive" alt="" src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-<?php echo rand(1,14) ?>.jpg&amp;w=540"></a><figcaption id="" class="wp-caption-text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</figcaption></figure>
 
                             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 

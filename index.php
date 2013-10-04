@@ -3,7 +3,6 @@
                 <div id="primary" class="column">
                     <div id="primary-content" class="article">
                         <div class="section">
-                            <h1 class="cat">Kategori Satu</h1>
                             <a href="index.php?p=1"><img src="<?php echo get_template_directory_uri() ?>/timthumb.php?src=img/dummy/photo-<?php echo rand(1,14) ?>.jpg&amp;w=540&amp;h=300" alt="EYD Magazine" class="img-responsive" /></a>
                             <h1><a href="index.php?p=1">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Eli</a></h1>
                             <p class="post-author">Oleh: <a href="#">Yoga Hanggara</a></p>
