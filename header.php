@@ -10,6 +10,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="wrap">
+    <?php if(is_category( 1 ) == FALSE): ?>
     <nav id="main-nav" class="navbar navbar-default navbar-static-top visible-xs" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -30,7 +31,8 @@
             </div>
         </div>
     </nav>
-
+    <?php endif ?>
+    
     <section id="main-content">
         <div class="container">
             <div id="content">
