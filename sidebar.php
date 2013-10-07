@@ -5,13 +5,13 @@
                     <div class="widget navigation">
                         <ul class="nav nav-pills nav-stacked">
                             <li class="active"><a href="index.php">Home</a></li>
-                            <li><a href="index.php">Catalog</a></li>
+                            <li><a href="index.php?cat=1">Catalog</a></li>
                             <li><a href="index.php">Comic</a></li>
                             <li><a href="index.php">Blog</a></li>
                             <li><a href="index.php">Subscribe</a></li>
                             <li><a href="index.php">Download</a></li>
                             <li><a href="index.php">Scoop</a></li>
-                            <li><a href="index.php">Book Shop &amp; Merch</a></li>
+                            <li><a href="index.php?cat=1">Book Shop &amp; Merch</a></li>
                             <li><a href="index.php">Contact Us</a></li>
                         </ul>
                     </div>
